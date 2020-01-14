@@ -25,20 +25,21 @@ body
 
 header
 {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    
     background-color:#1f233e;
     padding: 1% 5%;
 }
 
 .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    display: contents;
+    /* display: contents; */
 }
 
 /********************* Logo *********************/
@@ -261,7 +262,7 @@ aside
     display: flex;
     justify-content:center;
     align-items: center;
-    height: 80vh;
+    height: 50vh;
 }
 
 .box{
@@ -271,6 +272,7 @@ aside
     grid-gap: 15px;
     margin: 0 auto;
   }
+
   .card{
     position: relative;
     width: 300px;
@@ -353,6 +355,12 @@ aside
   margin-top: 5px;
    } 
 
+   .Section-title {
+       text-align: center;
+       text-transform: uppercase;
+       font-weight: 600;
+       font-size: 2rem;
+   }
 /******************* End Section-2  Cards *************/
 /********************* Footer ************************/
 
